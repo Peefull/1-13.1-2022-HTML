@@ -1,0 +1,13 @@
+import turtle
+ablak = turtle.Screen()
+ablak.bgcolor ("pink")
+ablak.title("Hello, Isten!")
+Sanyi = turtle.Turtle()
+Sanyi.color("yellow")
+Sanyi.pensize(6)
+Sanyi.forward(200)
+Sanyi.left(100)
+Sanyi.forward(500)
+Sanyi.left(100)
+Sanyi.forward(500)
+ablak.mainloop()
